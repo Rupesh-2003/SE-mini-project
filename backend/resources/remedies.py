@@ -34,7 +34,7 @@ Settings.llm = llm
 storage_context = StorageContext.from_defaults(persist_dir="./AI/disease_remedy_index")
 medical_index = load_index_from_storage(storage_context)
 
-memory = ChatMemoryBuffer.from_defaults(token_limit=1500)
+memory = ChatMemoryBuffer.from_defaults(token_limit=4000)
 
 ayurvedic_remedy_engine = medical_index.as_chat_engine(
     chat_mode="context",

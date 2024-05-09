@@ -38,7 +38,7 @@ const Navbar = () => {
                 onClick={() => {router.push('/home')}}
             >
                 <img src='/assets/logo.svg' alt='logo' className='w-[16px]'/>
-                AyuCare
+                SE Mini Project
             </div>
 
             {(pathname !== "user" && pathname !== "doctor") && <div className="flex flex-row box-border ml-auto gap-x-[20px]">

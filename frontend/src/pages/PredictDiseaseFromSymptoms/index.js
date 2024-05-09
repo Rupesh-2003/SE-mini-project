@@ -42,6 +42,7 @@ const PredictDiseaseFromSymptoms = () => {
             </div>
 
             {data !== null && <div className='flex flex-col w-full font-medium text-[24px]'>
+                {/* {data} */}
                 <div className='text-[24px]'>
                     <span className='text-dark2 mr-[15px]'>Symptoms &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span>
                     {data.symptoms}

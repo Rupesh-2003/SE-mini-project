@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <title>Need for Code</title>
+      <title>SE Mini Project</title>
       <meta name="description" content="Team Code Squad's Submission" />
       <link rel="icon" href="/assets/logo.svg" />
       <body>
